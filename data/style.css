@@ -1,0 +1,119 @@
+/* nunito-regular - latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Nunito Regular'), local('Nunito-Regular'),
+       url('/data/fonts/nunito-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/data/fonts/nunito-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('/data/fonts/open-sans-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/data/fonts/open-sans-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    color: #111;
+    background-color: #f6ebff;
+    font-size-adjust: .5;
+    font-family: 'Nunito', sans-serif;
+}
+
+header
+{
+    padding: 0 1em;
+    text-align: center;
+    max-width: 50em;
+    margin: 3em auto 1em;
+}
+
+header p
+{
+    color: #444;
+    font-size: 1.1em;
+    margin-top: .5em;
+    line-height: 1.5;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+header nav
+{
+    display: block;
+    margin: 1em 0;
+    line-height: 2.4em;
+}
+
+header nav a
+{
+    color: #666;
+    padding: 0 0.5em;
+}
+
+header nav a:hover
+{
+    color: #d46a84;
+}
+
+header nav a:first-child
+{
+    margin: 0;
+}
+
+body h1
+{
+    line-height: 1.2;
+}
+
+body h1 a
+{
+    color: #000;
+    transition-duration: .2s;
+}
+
+body h1 a:hover
+{
+    color: #303030;
+    text-decoration: none;
+}
+
+header h1
+{
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0em;
+    margin-bottom: 1em;
+    padding: 0em 1em;
+    max-width: 50em;
+}
+
+h4 {margin:0;padding:0;}
+
+hr
+{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}

@@ -6,7 +6,8 @@ body
     color: #111;
     background-color: #f6ebff;
     font-size-adjust: .5;
-    font-family: 'Nunito', sans-serif;
+    /*font-family: 'Nunito', sans-serif;*/
+    font-family: "Liberation Sans", sans-serif;
 }
 
 header
@@ -73,7 +74,7 @@ body h1 a:hover
 header h1
 {
     display: inline;
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
 }
 
 section
@@ -98,7 +99,7 @@ hr
 
 #mining
 {
-    background-image: url('/data/img/mining_away.png');
+    background-image: url('/data/out.png');
     position: fixed;
     right: 0px;
     bottom: 0px;
